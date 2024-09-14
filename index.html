@@ -1,81 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        nav {
-            margin: 10px 0;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 15px 20px;
-            background-color: #333;
-            margin: 0 5px;
-            border-radius: 5px;
-        }
-        nav a:hover {
-            background-color: #575757;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Personal Website</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#interests">Interests</a>
-            <a href="#about-me">About Me</a>
-        </nav>
+<!doctype html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Your title here</title>
+    <meta name="description" content="A brief description of your site for search engines">
+    <meta name="author" content="Information about the author here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <img src="logo.png">
+      <h1>Personal Website</h1>
+      
+      <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>                 
     </header>
-    <div class="container">
-        <section id="home">
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
             <h2>Home</h2>
-            <p>Welcome to my personal website! Here, you can learn more about my interests and get to know me better.</p>
-        </section>
-        <section id="interests">
-            <h2>Interests</h2>
-            <p>I am passionate about various topics, including coding, design, and technology. In my free time, I enjoy exploring new hobbies and learning new skills.</p>
-        </section>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>Hello! I'm [Your Name], and this is a bit about me. I love working on web development projects and am always looking for ways to improve my skills. Feel free to reach out if you want to connect!</p>
-        </section>
+            <p>
+              <a href="https://tahia-godhuli.github.io/">
+            </p>
+          </div>
+          
+          <div id="about" class="content-region hide">
+            <h2>About</h2>
+            <p>
+            </p>
+          </div>
+          
+          <div id="contact" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+            </p>
+          </div>
+          
+        </div>
+      </div>
     </div>
-    <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+
+    <footer>  
+      Footer region
     </footer>
-</body>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
 </html>
