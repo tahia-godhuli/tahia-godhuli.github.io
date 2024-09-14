@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-image: url("https://github.com/tahia-godhuli/tahia-godhuli.github.io/blob/main/background.jpg?raw=true");
+    background-image: url("https://papers.co/wallpaper/papers.co-sl98-pastel-blue-blur-gradation-29-wallpaper.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -84,10 +84,11 @@ footer {
 }
 
 .interest-pic {
-    width: 450px; /* Increased size for Interest page images */
-    height: auto;
+    width: 450px; /* Wider size for Interest page images */
+    height: 600px; /* Taller size for vertical emphasis */
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Ensures the image fits within the dimensions */
 }
 
 a img {
@@ -111,3 +112,4 @@ nav ul li:hover {
     background-color: #e6e6e6;
     border-color: #6A0DAD;
 }
+
