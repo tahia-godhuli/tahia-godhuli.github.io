@@ -141,3 +141,18 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Homepage title */
+@font-face {
+    font-family: 'Bubble Test';
+    src: url('path/to/bubble-test-font.woff2') format('woff2'); /* Adjust URL and format */
+}
+
+#home-title {
+    color: white;
+    font-family: 'Bubble Test', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
