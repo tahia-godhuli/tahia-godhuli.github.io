@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-image: url("https://lh3.googleusercontent.com/pw/AP1GczNIvXVMpIPRAI4mUfiWIC33nal5nYJRI-_Tflg5mSDc2qedbNLv8BaYq-ENimHw6jfjfXJfobb0aVJRYNQd8yJWpvPP3xRi8YrYssQwDgwBK5-FgXs=w2400?source=screenshot.guru");
+    background-image: url("https://papers.co/wallpaper/papers.co-sl98-pastel-blue-blur-gradation-29-wallpaper.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -65,22 +65,6 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-/* Homepage box styles */
-.homepage-box {
-    border: 2px solid #6A0DAD;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 15px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.homepage-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.3);
-}
-
 /* Image gallery */
 .image-gallery {
     text-align: center;
@@ -103,9 +87,8 @@ footer {
 }
 
 .interest-pic {
-    width: 200px; /* Adjusted size to be smaller */
-    height: auto;
-    max-height: 300px; /* Ensures images don't get too tall */
+    width: 300px; /* Adjusted size to fit all images on the page */
+    height: 400px; /* Increased height for better vertical size */
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     object-fit: cover; /* Ensures the image fits within the dimensions */
@@ -128,17 +111,6 @@ nav ul li a {
 nav ul li:hover {
     background-color: #e6e6e6;
     border-color: #6A0DAD;
-}
-
-/* Footer link styles */
-footer a {
-    text-decoration: none;
-    color: #6A0DAD;
-    font-size: 1.2em;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
 
