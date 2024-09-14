@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://github.com/tahia-godhuli/tahia-godhuli.github.io/blob/main/background.jpg?raw=true');
+    background-image: url('https://papers.co/wallpaper/papers.co-sl98-pastel-blue-blur-gradation-29-wallpaper.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ header {
     text-align: center;
     padding: 10px;
     background-color: #f7f7f7; /* Off-white background for header */
-    border-bottom: 2px solid #ddd; /* Subtle border for accent */
+    border-bottom: 2px solid #ddd;
 }
 
 nav ul {
@@ -47,16 +47,16 @@ footer {
     background-color: #f7f7f7; /* Off-white background for footer */
 }
 
-.interest-pic {
-    width: 300px;
-    height: auto;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for image accents */
-}
-
 .image-gallery {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Spread images horizontally */
+    margin-top: 20px;
+}
+
+.interest-pic {
+    width: 150px; /* Small size for the images */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
