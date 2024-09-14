@@ -31,7 +31,14 @@ footer {
     padding: 10px;
 }
 
-.profile-pic {
+.interest-pic {
     width: 300px;
     height: auto;
+    margin: 10px;
 }
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
