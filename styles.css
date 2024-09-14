@@ -10,16 +10,6 @@ body {
     padding: 0;
 }
 
-/* Container and layout */
-#container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Off-white accent for better readability */
-    border-radius: 10px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-}
-
 /* Header styles */
 header {
     text-align: center;
@@ -27,9 +17,10 @@ header {
 }
 
 #home-title {
-    color: white;
-    font-family: 'Bubble Test', sans-serif;
+    color: #D8BFD8; /* Lilac color */
+    font-family: 'Patrick Hand', cursive; /* Apply Patrick Hand font */
     font-size: 3em; /* Make the font size larger */
+    font-weight: bold; /* Make the text bold */
     text-align: center;
     margin: 20px 0;
 }
@@ -140,6 +131,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
 
 
