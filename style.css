@@ -1,8 +1,12 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Apply the Google Font */
     margin: 0;
     padding: 0;
     background-color: #FFC0CB; /* Baby pink background color */
+    color: #ff69b4; /* Light pink text color */
 }
 
 header {
@@ -33,6 +37,7 @@ main {
     border-radius: 10px; /* Rounded corners */
     max-width: 800px; /* Maximum width for the content */
     margin: 20px auto; /* Center the content horizontally */
+    text-align: center; /* Center text in the main content */
 }
 
 footer {
