@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://papers.co/wallpaper/papers.co-sl98-pastel-blue-blur-gradation-29-wallpaper.jpg');
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczNIvXVMpIPRAI4mUfiWIC33nal5nYJRI-_Tflg5mSDc2qedbNLv8BaYq-ENimHw6jfjfXJfobb0aVJRYNQd8yJWpvPP3xRi8YrYssQwDgwBK5-FgXs=w2400?source=screenshot.guru');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -13,7 +13,9 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Off-white semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
 header {
@@ -45,6 +47,19 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #f7f7f7; /* Off-white background for footer */
+}
+
+section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #ddd; /* Border around sections */
+    border-radius: 8px; /* Rounded corners for sections */
+    background-color: rgba(255, 255, 255, 0.9); /* Off-white background for sections */
+}
+
+h2 {
+    border-bottom: 2px solid #ddd; /* Border under section headers */
+    padding-bottom: 5px;
 }
 
 .image-gallery {
