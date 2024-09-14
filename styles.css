@@ -1,10 +1,7 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-image: url("https://lh3.googleusercontent.com/pw/AP1GczNIvXVMpIPRAI4mUfiWIC33nal5nYJRI-_Tflg5mSDc2qedbNLv8BaYq-ENimHw6jfjfXJfobb0aVJRYNQd8yJWpvPP3xRi8YrYssQwDgwBK5-FgXs=w2400?source=screenshot.guru");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: #E6E6FA; /* Lavender background color */
     color: #333;
     margin: 0;
     padding: 0;
@@ -139,5 +136,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
 
 
