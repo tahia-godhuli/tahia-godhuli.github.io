@@ -1,55 +1,64 @@
-/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ADD8E6; /* Light blue background */
+    background-color: #e0f7fa; /* Light blue background color */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #87CEEB; /* Sky blue background for header */
-    padding: 1rem;
+    background-color: #00796b; /* Teal header background */
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
+header #logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin: 0 10px;
 }
 
-nav ul li a {
-    color: #ffffff; /* White text color for links */
+header nav ul li a {
+    color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
-main {
-    padding: 2rem;
-    text-align: center;
+header nav ul li a:hover {
+    text-decoration: underline;
 }
 
-section {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: #ffffff; /* White background for sections */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 footer {
-    background-color: #87CEEB; /* Sky blue background for footer */
-    padding: 1rem;
+    background-color: #00796b; /* Matching footer background color */
+    color: white;
     text-align: center;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
+.profile-pic, .interest-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 
 
 
