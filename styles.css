@@ -85,7 +85,7 @@ footer {
     box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* Image gallery */
+/* Centered image */
 .centered-image {
     text-align: center;
     margin: 20px 0; /* Adds spacing above and below the image */
@@ -141,3 +141,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
