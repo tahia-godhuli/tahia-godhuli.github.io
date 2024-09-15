@@ -1,79 +1,79 @@
-/* Import Patrick Hand font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-
-/* General styles */
+/* General styling */
 body {
-    font-family: 'Patrick Hand', cursive; /* Patrick Hand font */
-    background-color: #E6E6FA; /* Lavender background */
-    color: #333;
-    margin: 0;
-    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+    background: url('https://lh3.googleusercontent.com/pw/AP1GczMohC5Yr4TSZJsRHSGhC8rPdrmCQp-AXQn_UF9Ieyg1at2L69rhM_yWeQhVtDqeabgv641OQAiFv3IVT2XxpUKhP4XFB9oUEXDhWC53CvLwMx3DIHk=w2400?source=screenshot.guru') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
 }
 
-/* Header styles */
-header {
+h1, h2 {
     text-align: center;
-    padding: 20px;
+    color: #D8BFD8; /* Lilac color */
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5rem;
 }
 
-/* Centering image */
-.centered-image {
-    display: flex;
-    justify-content: center;
+/* Animation for the homepage text */
+#home-title {
+    font-size: 3rem;
+    color: #D8BFD8; /* Lilac color */
+    font-weight: bold;
+    animation: fadeInMove 3s infinite alternate;
+    text-align: center;
     margin-top: 20px;
 }
 
-/* Navigation styles */
-nav ul li a {
-    color: #E6E6FA; /* Lilac color */
-    font-family: 'Patrick Hand', cursive;
+/* Keyframe animation */
+@keyframes fadeInMove {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-/* Scrollable image gallery for Interests page */
-.interests-gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 600px; /* Set max height for scroll */
-    overflow-y: scroll; /* Enable vertical scrolling */
-}
-
-.interests-gallery img {
-    width: 500px; /* Make the images bigger */
-    margin: 10px 0;
-}
-
-/* Image gallery for About Me */
-.image-gallery img {
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
+/* Center the image */
+.centered-image {
     display: block;
-    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-/* Button styles */
-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-nav ul li {
-    list-style-type: none;
-}
-
+/* Button styling */
 nav ul li a {
-    background-color: #6A0DAD; /* Lilac background */
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
+    font-size: 1.2rem;
+    color: #D8BFD8; /* Lilac */
     font-family: 'Patrick Hand', cursive;
-    border-radius: 5px;
 }
 
-nav ul li a:hover {
-    background-color: #8A2BE2; /* Hover color */
+/* Section text styling */
+section p {
+    font-size: 1.3rem;
 }
+
+/* Adjustments for About Me page */
+.back-home-btn {
+    display: block;
+    text-align: center;
+    background-color: #D8BFD8;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.back-home-btn:hover {
+    background-color: #C8A2C8; /* Darker lilac */
+}
+
 
 
