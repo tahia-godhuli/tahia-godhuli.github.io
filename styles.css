@@ -1,3 +1,6 @@
+/* Import Patrick Hand font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 /* General styles */
 body {
     font-family: 'Patrick Hand', cursive; /* Set Patrick Hand as the default font */
@@ -52,6 +55,35 @@ a {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Other existing styles... */
+/* Header text styles */
+header h1 {
+    font-family: 'Patrick Hand', cursive; /* Apply Patrick Hand font */
+    color: #6A0DAD; /* Color as needed */
+    font-size: 2.5em; /* Adjust size as needed */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Homepage button styles */
+.homepage-box {
+    border: 2px solid #6A0DAD;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Footer link styles */
+footer a {
+    text-decoration: none;
+    color: #6A0DAD;
+    font-size: 1.2em;
+    font-family: 'Patrick Hand', cursive; /* Apply Patrick Hand font */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
 
