@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    font-family: 'Patrick Hand', sans-serif;
+    font-family: 'Patrick Hand', cursive; /* Ensure font is applied to all text */
     background-color: lavender;
     margin: 0;
     padding: 0;
