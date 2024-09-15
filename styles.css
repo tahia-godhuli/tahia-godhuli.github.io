@@ -1,79 +1,104 @@
-/* General styling */
+/* General styles */
 body {
-    font-family: 'Patrick Hand', cursive;
-    background: url('https://lh3.googleusercontent.com/pw/AP1GczMohC5Yr4TSZJsRHSGhC8rPdrmCQp-AXQn_UF9Ieyg1at2L69rhM_yWeQhVtDqeabgv641OQAiFv3IVT2XxpUKhP4XFB9oUEXDhWC53CvLwMx3DIHk=w2400?source=screenshot.guru') no-repeat center center fixed;
-    background-size: cover;
-    color: #ffffff;
+    font-family: 'Patrick Hand', sans-serif;
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
-h1, h2 {
+header {
     text-align: center;
-    color: #D8BFD8; /* Lilac color */
-    font-family: 'Patrick Hand', cursive;
-    font-size: 2.5rem;
+    padding: 20px;
+    background-color: #eee;
 }
 
-/* Animation for the homepage text */
 #home-title {
-    font-size: 3rem;
-    color: #D8BFD8; /* Lilac color */
+    font-size: 3em;
     font-weight: bold;
-    animation: fadeInMove 3s infinite alternate;
+    color: #C8A2C8; /* Lilac color */
+}
+
+.animate-text {
+    animation: moveText 3s ease-in-out infinite alternate;
+}
+
+/* Animation for welcome text */
+@keyframes moveText {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #C8A2C8; /* Lilac color for nav links */
+    font-size: 1.2em;
+}
+
+/* Container styles */
+#container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section headers */
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Image gallery */
+.image-gallery {
     text-align: center;
     margin-top: 20px;
 }
 
-/* Keyframe animation */
-@keyframes fadeInMove {
-    0% {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Center the image */
-.centered-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-/* Button styling */
-nav ul li a {
-    font-size: 1.2rem;
-    color: #D8BFD8; /* Lilac */
-    font-family: 'Patrick Hand', cursive;
-}
-
-/* Section text styling */
-section p {
-    font-size: 1.3rem;
-}
-
-/* Adjustments for About Me page */
-.back-home-btn {
-    display: block;
-    text-align: center;
-    background-color: #D8BFD8;
-    padding: 10px 20px;
-    color: #ffffff;
-    border: none;
-    font-size: 1.2rem;
-    font-family: 'Patrick Hand', cursive;
-    text-decoration: none;
-    margin: 20px auto;
-    width: 150px;
+.image-gallery img {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
     border-radius: 10px;
 }
 
-.back-home-btn:hover {
-    background-color: #C8A2C8; /* Darker lilac */
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    margin-top: 20px;
 }
 
+/* Optional button styles */
+button {
+    padding: 10px 20px;
+    background-color: #C8A2C8; /* Lilac color */
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
-
+button:hover {
+    background-color: #a984a8;
+}
