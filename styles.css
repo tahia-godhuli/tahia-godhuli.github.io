@@ -77,6 +77,17 @@ p {
     margin-top: 20px;
 }
 
+/* Uniform image styles */
+.interest-pic {
+    width: 80%; /* Ensure all images have the same width */
+    max-width: 600px; /* Maximum width for uniformity */
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #C8A2C8; /* Lilac border color */
+    margin: 10px 0; /* Space between images */
+    display: inline-block; /* Ensure images align properly */
+}
+
 /* Animated image */
 .animated-pic {
     width: 80%; /* Larger width */
@@ -128,5 +139,4 @@ button {
 button:hover {
     background-color: #a984a8;
 }
-
 
