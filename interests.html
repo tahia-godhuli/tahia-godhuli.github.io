@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interests - Tahia's Website</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles specific to the Interests page */
+        .interest-text {
+            font-family: 'Patrick Hand', sans-serif;
+            color: #C8A2C8; /* Lilac color for text */
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .interest-pic {
+            width: 300px; /* Uniform width */
+            height: 200px; /* Uniform height */
+            object-fit: cover; /* Ensures image covers the area without distortion */
+            border-radius: 10px;
+            border: 3px solid #C8A2C8; /* Lilac border color */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .interest-pic {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,7 +44,7 @@
     </header>
     <div id="container">
         <section>
-            <p>I love spending my free time traveling, attending concerts, and exploring photography. I’ve been enjoying experimenting with film cameras and different lenses. Additionally, I’m passionate about coding in Python and eager to learn more about game development.</p>
+            <p class="interest-text">I love spending my free time traveling, attending concerts, and exploring photography. I’ve been enjoying experimenting with film cameras and different lenses. Additionally, I’m passionate about coding in Python and eager to learn more about game development.</p>
 
             <!-- Image Gallery -->
             <div class="image-gallery">
