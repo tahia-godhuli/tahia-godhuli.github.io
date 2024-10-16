@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    text-align: center;
+    position: relative;
     padding: 20px;
     background-color: #eee;
 }
@@ -33,15 +33,21 @@ header {
     }
 }
 
+/* Adjusted styles for stacking menu items at the top right */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin-bottom: 10px; /* Stack items vertically with some spacing */
 }
 
 nav ul li a {
